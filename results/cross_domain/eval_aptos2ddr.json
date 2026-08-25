@@ -1,0 +1,55 @@
+{
+  "ckpt": "/root/autodl-tmp/longfei/classification/runs/homar_v3_aptos_only/best_model.pth",
+  "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+  "use_ema": true,
+  "use_tta": true,
+  "num_classes": 5,
+  "n_samples": 3759,
+  "thresholds": [
+    0.05,
+    0.5,
+    1.0,
+    1.7500000000000002
+  ],
+  "accuracy": 0.5743548816174514,
+  "qwk": 0.5509402869705052,
+  "auroc": 0.7411484818288778,
+  "aupr": 0.3956221605757763,
+  "confusion_matrix": [
+    [
+      1828,
+      21,
+      18,
+      11,
+      2
+    ],
+    [
+      127,
+      22,
+      22,
+      12,
+      6
+    ],
+    [
+      956,
+      110,
+      96,
+      78,
+      104
+    ],
+    [
+      42,
+      1,
+      4,
+      5,
+      19
+    ],
+    [
+      25,
+      10,
+      8,
+      24,
+      208
+    ]
+  ]
+}

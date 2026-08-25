@@ -1,0 +1,55 @@
+{
+  "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_consensus/best_model.pth",
+  "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+  "use_ema": true,
+  "use_tta": true,
+  "num_classes": 5,
+  "n_samples": 3759,
+  "thresholds": [
+    0.1,
+    1.0000000000000004,
+    2.000000000000001,
+    3.8500000000000023
+  ],
+  "accuracy": 0.5996275605214153,
+  "qwk": 0.7791628334364622,
+  "auroc": 0.8597050604767722,
+  "aupr": 0.5273060319231679,
+  "confusion_matrix": [
+    [
+      1540,
+      320,
+      18,
+      2,
+      0
+    ],
+    [
+      33,
+      85,
+      65,
+      5,
+      1
+    ],
+    [
+      264,
+      403,
+      404,
+      248,
+      25
+    ],
+    [
+      0,
+      6,
+      14,
+      46,
+      5
+    ],
+    [
+      0,
+      4,
+      23,
+      69,
+      179
+    ]
+  ]
+}

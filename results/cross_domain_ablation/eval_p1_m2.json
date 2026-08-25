@@ -1,0 +1,55 @@
+{
+  "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/baseline_retfound/best_model.pth",
+  "data_root": "/root/autodl-tmp/longfei/colored_images_messidor",
+  "use_ema": true,
+  "use_tta": true,
+  "num_classes": 5,
+  "n_samples": 1744,
+  "thresholds": [
+    0.9,
+    1.0500000000000005,
+    2.3500000000000014,
+    3.1500000000000012
+  ],
+  "accuracy": 0.7408256880733946,
+  "qwk": 0.8040197778205869,
+  "auroc": 0.9110737644610692,
+  "aupr": 0.7725335486860511,
+  "confusion_matrix": [
+    [
+      883,
+      109,
+      25,
+      0,
+      0
+    ],
+    [
+      110,
+      138,
+      22,
+      0,
+      0
+    ],
+    [
+      62,
+      73,
+      173,
+      37,
+      2
+    ],
+    [
+      1,
+      0,
+      6,
+      67,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      3,
+      31
+    ]
+  ]
+}

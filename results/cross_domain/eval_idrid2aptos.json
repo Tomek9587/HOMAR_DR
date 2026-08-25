@@ -1,0 +1,55 @@
+{
+  "ckpt": "/root/autodl-tmp/longfei/classification/runs/homar_v3_idrid_only/best_model.pth",
+  "data_root": "/root/autodl-tmp/longfei/colored_images",
+  "use_ema": true,
+  "use_tta": true,
+  "num_classes": 5,
+  "n_samples": 3662,
+  "thresholds": [
+    1.9000000000000001,
+    2.000000000000001,
+    2.0000000000000013,
+    2.1500000000000004
+  ],
+  "accuracy": 0.4557618787547788,
+  "qwk": 0.5942861436740519,
+  "auroc": 0.669701844781464,
+  "aupr": 0.31130896227275806,
+  "confusion_matrix": [
+    [
+      1355,
+      393,
+      0,
+      51,
+      6
+    ],
+    [
+      187,
+      122,
+      0,
+      49,
+      12
+    ],
+    [
+      306,
+      248,
+      0,
+      277,
+      168
+    ],
+    [
+      37,
+      15,
+      0,
+      54,
+      87
+    ],
+    [
+      48,
+      46,
+      0,
+      63,
+      138
+    ]
+  ]
+}

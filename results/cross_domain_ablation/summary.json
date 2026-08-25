@@ -1,0 +1,1126 @@
+{
+  "reference": {
+    "aptos": {
+      "ckpt": "/root/autodl-tmp/longfei/classification/runs/homar_v3_joint4/best_model.pth",
+      "data_root": "/root/autodl-tmp/longfei/colored_images",
+      "use_ema": true,
+      "use_tta": true,
+      "num_classes": 5,
+      "n_samples": 3662,
+      "thresholds": [
+        0.8,
+        1.1000000000000005,
+        2.950000000000002,
+        3.2500000000000018
+      ],
+      "accuracy": 0.8741125068268706,
+      "qwk": 0.9482427008710625,
+      "auroc": 0.9634620069551488,
+      "aupr": 0.7655233274566261,
+      "confusion_matrix": [
+        [
+          1764,
+          38,
+          3,
+          0,
+          0
+        ],
+        [
+          13,
+          294,
+          60,
+          0,
+          3
+        ],
+        [
+          7,
+          58,
+          773,
+          153,
+          8
+        ],
+        [
+          0,
+          0,
+          18,
+          143,
+          32
+        ],
+        [
+          1,
+          2,
+          26,
+          39,
+          227
+        ]
+      ]
+    },
+    "m2": {
+      "ckpt": "/root/autodl-tmp/longfei/classification/runs/homar_v3_joint4/best_model.pth",
+      "data_root": "/root/autodl-tmp/longfei/colored_images_messidor",
+      "use_ema": true,
+      "use_tta": true,
+      "num_classes": 5,
+      "n_samples": 1744,
+      "thresholds": [
+        0.8,
+        1.0500000000000005,
+        2.8000000000000016,
+        3.0500000000000016
+      ],
+      "accuracy": 0.6788990825688074,
+      "qwk": 0.7809108769062769,
+      "auroc": 0.8877209954868874,
+      "aupr": 0.6995260617623719,
+      "confusion_matrix": [
+        [
+          797,
+          195,
+          25,
+          0,
+          0
+        ],
+        [
+          105,
+          148,
+          17,
+          0,
+          0
+        ],
+        [
+          50,
+          114,
+          150,
+          32,
+          1
+        ],
+        [
+          0,
+          1,
+          8,
+          59,
+          7
+        ],
+        [
+          0,
+          0,
+          2,
+          3,
+          30
+        ]
+      ]
+    },
+    "idrid": {
+      "ckpt": "/root/autodl-tmp/longfei/classification/runs/homar_v3_joint4/best_model.pth",
+      "data_root": "/root/autodl-tmp/longfei/iDRiD/organized/test",
+      "use_ema": true,
+      "use_tta": true,
+      "num_classes": 5,
+      "n_samples": 103,
+      "thresholds": [
+        1.8,
+        1.8,
+        2.7000000000000015,
+        3.1000000000000014
+      ],
+      "accuracy": 0.6504854368932039,
+      "qwk": 0.8428891879766711,
+      "auroc": 0.8334503338268814,
+      "aupr": 0.536473340543991,
+      "confusion_matrix": [
+        [
+          34,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          12,
+          12,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          5
+        ]
+      ]
+    },
+    "ddr": {
+      "ckpt": "/root/autodl-tmp/longfei/classification/runs/homar_v3_joint4/best_model.pth",
+      "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+      "use_ema": true,
+      "use_tta": true,
+      "num_classes": 5,
+      "n_samples": 3759,
+      "thresholds": [
+        0.05,
+        0.9500000000000004,
+        2.100000000000001,
+        3.450000000000002
+      ],
+      "accuracy": 0.5876562915669061,
+      "qwk": 0.7770990086473962,
+      "auroc": 0.8598371303110317,
+      "aupr": 0.5317858247054044,
+      "confusion_matrix": [
+        [
+          1395,
+          449,
+          36,
+          0,
+          0
+        ],
+        [
+          28,
+          92,
+          66,
+          2,
+          1
+        ],
+        [
+          215,
+          437,
+          497,
+          177,
+          18
+        ],
+        [
+          1,
+          3,
+          19,
+          42,
+          6
+        ],
+        [
+          0,
+          2,
+          32,
+          58,
+          183
+        ]
+      ]
+    }
+  },
+  "configs": {
+    "p1": {
+      "name": "P1 baseline_retfound",
+      "results": {
+        "aptos": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/baseline_retfound/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3662,
+          "thresholds": [
+            0.8,
+            1.1000000000000005,
+            2.9000000000000017,
+            3.950000000000002
+          ],
+          "accuracy": 0.9167121791370836,
+          "qwk": 0.9621103286445168,
+          "auroc": 0.9788369630104523,
+          "aupr": 0.8983294549320002,
+          "confusion_matrix": [
+            [
+              1777,
+              25,
+              3,
+              0,
+              0
+            ],
+            [
+              12,
+              315,
+              40,
+              1,
+              2
+            ],
+            [
+              6,
+              44,
+              878,
+              66,
+              5
+            ],
+            [
+              0,
+              1,
+              21,
+              163,
+              8
+            ],
+            [
+              1,
+              2,
+              20,
+              48,
+              224
+            ]
+          ]
+        },
+        "m2": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/baseline_retfound/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_messidor",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 1744,
+          "thresholds": [
+            0.9,
+            1.0500000000000005,
+            2.3500000000000014,
+            3.1500000000000012
+          ],
+          "accuracy": 0.7408256880733946,
+          "qwk": 0.8040197778205869,
+          "auroc": 0.9110737644610692,
+          "aupr": 0.7725335486860511,
+          "confusion_matrix": [
+            [
+              883,
+              109,
+              25,
+              0,
+              0
+            ],
+            [
+              110,
+              138,
+              22,
+              0,
+              0
+            ],
+            [
+              62,
+              73,
+              173,
+              37,
+              2
+            ],
+            [
+              1,
+              0,
+              6,
+              67,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              3,
+              31
+            ]
+          ]
+        },
+        "idrid": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/baseline_retfound/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/iDRiD/organized/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 103,
+          "thresholds": [
+            0.8500000000000001,
+            1.5,
+            2.100000000000001,
+            3.800000000000002
+          ],
+          "accuracy": 0.5533980582524272,
+          "qwk": 0.8104562827348653,
+          "auroc": 0.8493008878461492,
+          "aupr": 0.5675405403574594,
+          "confusion_matrix": [
+            [
+              26,
+              7,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              3,
+              9,
+              15,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              16,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              7,
+              5
+            ]
+          ]
+        },
+        "ddr": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/baseline_retfound/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3759,
+          "thresholds": [
+            0.05,
+            0.9000000000000004,
+            2.000000000000001,
+            3.4000000000000017
+          ],
+          "accuracy": 0.5868582069699388,
+          "qwk": 0.7633794947020782,
+          "auroc": 0.8215178220097629,
+          "aupr": 0.518846250881463,
+          "confusion_matrix": [
+            [
+              1478,
+              352,
+              48,
+              2,
+              0
+            ],
+            [
+              35,
+              67,
+              83,
+              3,
+              1
+            ],
+            [
+              273,
+              351,
+              433,
+              240,
+              47
+            ],
+            [
+              1,
+              4,
+              14,
+              40,
+              12
+            ],
+            [
+              0,
+              4,
+              26,
+              57,
+              188
+            ]
+          ]
+        }
+      }
+    },
+    "p2a": {
+      "name": "P2a no_routing",
+      "results": {
+        "aptos": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_routing/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3662,
+          "thresholds": [
+            0.55,
+            1.2500000000000007,
+            2.9000000000000017,
+            3.4000000000000017
+          ],
+          "accuracy": 0.8514472965592572,
+          "qwk": 0.9392450569888665,
+          "auroc": 0.9544990546639524,
+          "aupr": 0.7505608129340825,
+          "confusion_matrix": [
+            [
+              1760,
+              42,
+              3,
+              0,
+              0
+            ],
+            [
+              23,
+              252,
+              90,
+              2,
+              3
+            ],
+            [
+              4,
+              64,
+              762,
+              160,
+              9
+            ],
+            [
+              0,
+              0,
+              39,
+              128,
+              26
+            ],
+            [
+              0,
+              3,
+              36,
+              40,
+              216
+            ]
+          ]
+        },
+        "m2": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_routing/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_messidor",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 1744,
+          "thresholds": [
+            0.75,
+            1.2500000000000007,
+            2.3500000000000014,
+            3.0000000000000013
+          ],
+          "accuracy": 0.6284403669724771,
+          "qwk": 0.7573245121434425,
+          "auroc": 0.8704575075454866,
+          "aupr": 0.673243653706473,
+          "confusion_matrix": [
+            [
+              791,
+              202,
+              24,
+              0,
+              0
+            ],
+            [
+              125,
+              131,
+              14,
+              0,
+              0
+            ],
+            [
+              60,
+              131,
+              103,
+              48,
+              5
+            ],
+            [
+              0,
+              2,
+              7,
+              40,
+              26
+            ],
+            [
+              0,
+              0,
+              1,
+              3,
+              31
+            ]
+          ]
+        },
+        "idrid": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_routing/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/iDRiD/organized/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 103,
+          "thresholds": [
+            1.6500000000000001,
+            2.0000000000000013,
+            2.7500000000000018,
+            3.0500000000000016
+          ],
+          "accuracy": 0.6019417475728155,
+          "qwk": 0.8214826353085716,
+          "auroc": 0.8071436200303124,
+          "aupr": 0.5201579099968445,
+          "confusion_matrix": [
+            [
+              32,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              4,
+              6,
+              14,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              15,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              5,
+              7
+            ]
+          ]
+        },
+        "ddr": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_routing/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3759,
+          "thresholds": [
+            0.25,
+            0.9500000000000004,
+            1.9500000000000008,
+            3.2500000000000018
+          ],
+          "accuracy": 0.5974993349295026,
+          "qwk": 0.7772239151684267,
+          "auroc": 0.8645164207545701,
+          "aupr": 0.5276615107704018,
+          "confusion_matrix": [
+            [
+              1525,
+              314,
+              38,
+              3,
+              0
+            ],
+            [
+              46,
+              71,
+              61,
+              10,
+              1
+            ],
+            [
+              282,
+              322,
+              403,
+              300,
+              37
+            ],
+            [
+              4,
+              1,
+              8,
+              48,
+              10
+            ],
+            [
+              0,
+              2,
+              9,
+              65,
+              199
+            ]
+          ]
+        }
+      }
+    },
+    "p2b": {
+      "name": "P2b no_hierarchy",
+      "results": {
+        "aptos": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_hierarchy/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3662,
+          "thresholds": [
+            0.8,
+            1.1000000000000005,
+            2.950000000000002,
+            3.5500000000000016
+          ],
+          "accuracy": 0.8675587110868378,
+          "qwk": 0.9435623458309834,
+          "auroc": 0.9665210048096549,
+          "aupr": 0.8201872619365499,
+          "confusion_matrix": [
+            [
+              1763,
+              37,
+              5,
+              0,
+              0
+            ],
+            [
+              16,
+              273,
+              78,
+              0,
+              3
+            ],
+            [
+              7,
+              51,
+              771,
+              155,
+              15
+            ],
+            [
+              0,
+              0,
+              31,
+              146,
+              16
+            ],
+            [
+              1,
+              3,
+              25,
+              42,
+              224
+            ]
+          ]
+        },
+        "m2": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_hierarchy/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_messidor",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 1744,
+          "thresholds": [
+            0.9,
+            1.1500000000000006,
+            2.200000000000001,
+            3.0000000000000013
+          ],
+          "accuracy": 0.6318807339449541,
+          "qwk": 0.7596890638510285,
+          "auroc": 0.8790416622367342,
+          "aupr": 0.6630107205588119,
+          "confusion_matrix": [
+            [
+              817,
+              181,
+              19,
+              0,
+              0
+            ],
+            [
+              132,
+              125,
+              13,
+              0,
+              0
+            ],
+            [
+              69,
+              124,
+              91,
+              57,
+              6
+            ],
+            [
+              0,
+              2,
+              3,
+              38,
+              32
+            ],
+            [
+              0,
+              1,
+              0,
+              3,
+              31
+            ]
+          ]
+        },
+        "idrid": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_hierarchy/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/iDRiD/organized/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 103,
+          "thresholds": [
+            1.7000000000000002,
+            1.7000000000000002,
+            2.7000000000000015,
+            3.5
+          ],
+          "accuracy": 0.6699029126213593,
+          "qwk": 0.8313088576497885,
+          "auroc": 0.8401476377987779,
+          "aupr": 0.583304822336096,
+          "confusion_matrix": [
+            [
+              33,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              0,
+              14,
+              10,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              17,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              7,
+              5
+            ]
+          ]
+        },
+        "ddr": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_hierarchy/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3759,
+          "thresholds": [
+            0.05,
+            0.9000000000000004,
+            1.9500000000000008,
+            3.3000000000000016
+          ],
+          "accuracy": 0.5557329076882149,
+          "qwk": 0.7802242127592189,
+          "auroc": 0.8764220793206677,
+          "aupr": 0.5548562436858081,
+          "confusion_matrix": [
+            [
+              1376,
+              462,
+              40,
+              2,
+              0
+            ],
+            [
+              20,
+              89,
+              67,
+              12,
+              1
+            ],
+            [
+              181,
+              427,
+              385,
+              306,
+              45
+            ],
+            [
+              0,
+              5,
+              14,
+              45,
+              7
+            ],
+            [
+              0,
+              4,
+              13,
+              64,
+              194
+            ]
+          ]
+        }
+      }
+    },
+    "p2c": {
+      "name": "P2c no_consensus",
+      "results": {
+        "aptos": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_consensus/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3662,
+          "thresholds": [
+            0.6000000000000001,
+            1.1000000000000005,
+            2.950000000000002,
+            3.4000000000000017
+          ],
+          "accuracy": 0.871381758601857,
+          "qwk": 0.9453167623133844,
+          "auroc": 0.9695898154938092,
+          "aupr": 0.8310779802621001,
+          "confusion_matrix": [
+            [
+              1761,
+              40,
+              4,
+              0,
+              0
+            ],
+            [
+              13,
+              268,
+              86,
+              0,
+              3
+            ],
+            [
+              5,
+              48,
+              789,
+              142,
+              15
+            ],
+            [
+              0,
+              0,
+              26,
+              145,
+              22
+            ],
+            [
+              1,
+              1,
+              31,
+              34,
+              228
+            ]
+          ]
+        },
+        "m2": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_consensus/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_messidor",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 1744,
+          "thresholds": [
+            0.8500000000000001,
+            1.1000000000000005,
+            2.3500000000000014,
+            3.0000000000000013
+          ],
+          "accuracy": 0.6416284403669725,
+          "qwk": 0.7774294417455656,
+          "auroc": 0.8930868260974327,
+          "aupr": 0.7139288406195657,
+          "confusion_matrix": [
+            [
+              746,
+              248,
+              22,
+              1,
+              0
+            ],
+            [
+              88,
+              173,
+              9,
+              0,
+              0
+            ],
+            [
+              36,
+              148,
+              112,
+              49,
+              2
+            ],
+            [
+              0,
+              0,
+              5,
+              56,
+              14
+            ],
+            [
+              0,
+              1,
+              0,
+              2,
+              32
+            ]
+          ]
+        },
+        "idrid": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_consensus/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/iDRiD/organized/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 103,
+          "thresholds": [
+            1.35,
+            1.9000000000000012,
+            2.300000000000001,
+            3.5500000000000016
+          ],
+          "accuracy": 0.6310679611650486,
+          "qwk": 0.8385431074227755,
+          "auroc": 0.8255353011360645,
+          "aupr": 0.56173760021876,
+          "confusion_matrix": [
+            [
+              31,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              1,
+              9,
+              14,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              17,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              8,
+              5
+            ]
+          ]
+        },
+        "ddr": {
+          "ckpt": "/root/autodl-tmp/longfei/classification/runs/ablation/homar_no_consensus/best_model.pth",
+          "data_root": "/root/autodl-tmp/longfei/colored_images_ddr/test",
+          "use_ema": true,
+          "use_tta": true,
+          "num_classes": 5,
+          "n_samples": 3759,
+          "thresholds": [
+            0.1,
+            1.0000000000000004,
+            2.000000000000001,
+            3.8500000000000023
+          ],
+          "accuracy": 0.5996275605214153,
+          "qwk": 0.7791628334364622,
+          "auroc": 0.8597050604767722,
+          "aupr": 0.5273060319231679,
+          "confusion_matrix": [
+            [
+              1540,
+              320,
+              18,
+              2,
+              0
+            ],
+            [
+              33,
+              85,
+              65,
+              5,
+              1
+            ],
+            [
+              264,
+              403,
+              404,
+              248,
+              25
+            ],
+            [
+              0,
+              6,
+              14,
+              46,
+              5
+            ],
+            [
+              0,
+              4,
+              23,
+              69,
+              179
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
