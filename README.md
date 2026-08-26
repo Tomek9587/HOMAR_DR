@@ -17,7 +17,7 @@ Trained on a four-source joint dataset (APTOS-2019 + Messidor-2 + IDRiD +
 DDR, JOINT4, n = 10,456), a single deployed checkpoint reaches
 QWK = 0.9001 / 0.7038 / 0.7329 / 0.7130 on the four held-out test splits
 and 0.7555 on the combined pool.
-
+You can find trained weights in https://github.com/Tomek9587/HOMAR_DR/releases
 ## Repository layout
 
 ```
