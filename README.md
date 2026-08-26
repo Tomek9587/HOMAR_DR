@@ -97,9 +97,10 @@ for the full matrix reported in the paper).
 
 ## Pretrained checkpoints
 
-Checkpoints (JOINT4 and the four ablation variants) will be released on
-Zenodo; the link will be added here upon publication. All metrics needed
-to verify the paper's tables are already included under `results/`.
+The final trained weights (JOINT4 and the four ablation variants) are
+available on the [Releases page](https://github.com/Tomek9587/HOMAR_DR/releases/tag/v1.0).
+All metrics needed to verify the paper's tables are already included
+under `results/`.
 
 ## License
 
